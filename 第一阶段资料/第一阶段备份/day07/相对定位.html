@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+div {
+	width: 100px;
+	height: 100px;
+}
+#d1, #d2{
+	display: inline-block;
+}
+/* 相对定位， 相对于自身原来的位置进行定位。 
+他还占据原来的位置和空间。
+偏移量可以设定left or right, top or bottom
+*/
+#d1 {
+	background: red;
+	position: relative;
+	right: 20px;
+	bottom: 40px;
+}
+#d2 {
+	background: yellow;
+}
+#d3 {
+	background: blue;
+}
+</style>
+</head>
+
+<body>
+<div id="d1"></div>
+<div id="d2"></div>
+<div id="d3"></div>
+</body>
+</html>

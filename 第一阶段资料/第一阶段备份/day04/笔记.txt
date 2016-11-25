@@ -1,0 +1,39 @@
+1. float会使元素脱离文档流，因此父元素的高度会塌陷。
+产生的问题：会导致父元素的下方元素位置出现问题。
+对应方案：只要是使用了浮动元素，其父元素必须清浮动。
+
+2.text-indent首行缩进
+text-indent: 2em; /* em:元素设定的一个字体大小。*/
+
+3.字间距 letter-spacing
+词间距 word-spacing
+
+4.文本流控制 layout-flow
+vertical-ideographic 自上而下的表示被废弃了。
+在老版本的IE中生效。
+网页上常用的图片格式
+1)jpg:有损压缩格式，靠损失图片本身的质量来减小图片的体积，适用于颜色丰富的图像;(像素点组成的，像素点越多会越清晰 )
+2)gif：有损压缩格式，靠损失图片的色彩数量来减小图片的体积，支持透明，支持动画，适用于颜色数量较少的图像;
+3)png:有损压缩格式，损失图片的色彩数量来减小图片的体积，支持透明，不支持动画，是fireworks的 源文件格式，适用于颜色数量较少的图像;
+
+5.盒模型
+外边距(margin) + 边框(border) + 内边距(padding)
++ 内容(content)
+设定的height和width是针对content设定的。
+
+6. margin外边距的理解。
+margin左右是相加的.
+margin上下是取最大值。因此上下关系中只给其中一方写margin。
+
+margin-top的bug
+现象把父元素给顶下来了。
+方法1：加边框方法 border: 1px solid #000;
+方法2: 给父元素加overflow: hidden;
+
+line-height的量取方式，上一行的头部到下一行的头部就是行高
+
+常见的需要css reset的元素：
+body, h1, h2, p, ul, li {
+	margin: 0px;
+	padding: 0px;
+}

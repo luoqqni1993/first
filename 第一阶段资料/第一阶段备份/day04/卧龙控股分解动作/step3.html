@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*去掉元素自带的属性，就叫做css reset*/
+body, h2, ul, li{
+	margin: 0px;
+	padding: 0px;
+}
+.header {
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+	background: skyblue;
+	background-image: url(img/logo.png);
+	background-position: 18px 34px;
+	background-repeat: no-repeat;
+}
+.header input {
+	width: 210px;
+	height: 28px;
+	background-color: #f1f1f1;
+	margin-top: 39px;
+	margin-left: 752px;
+	border: 1px solid #e5e5e5;
+	background-image: url(img/fangdajing.png);
+	background-position: 202px center;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+}
+
+
+.navi {
+	width: 1000px;
+	margin: 0 auto;	
+	background: #323232;
+}
+
+.navi ul {
+	overflow: hidden;
+	margin-left: 27px;
+}
+
+.navi li {
+	list-style: none;
+	float: left;
+	width: 119px;
+	border-right: 1px solid #4b4b4b;
+	background: #323232;
+	color: #fff;
+	font-size: 13px;
+	height: 59px;
+	line-height: 59px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.footer {
+	overflow: hidden;	
+	color: #5c5c5c;
+	width: 1000px;
+	margin: 0 auto;
+}
+.d1, .d2, .d3 {
+	float: left;
+	background: #e5e5e5;
+}
+.d1 {
+	padding-left: 21px;
+	padding-top: 22px;	
+	width: 451px;
+	height: 228px;
+}
+.d1 h2 {
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px solid #c2c2c2;
+	font-size: 16px;
+	padding-left: 12px;	
+	margin-bottom: 15px;
+}
+.d1 ul {
+	float: left;
+}
+.d1 .u1 {
+	margin-left: 5px;
+	width: 152px;
+}
+.d1 .u2 {
+	width: 193px;
+}
+.d1 .u3 {
+	width: 101px;
+}
+.d1 li {
+	line-height: 24px;	
+	font-size: 12px;
+	list-style: none;
+	padding-left: 13px;
+	/*
+	background-image: url(img/subicon.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	*/
+	background: url(img/subicon.png) no-repeat left center;
+}
+</style>
+</head>
+
+<body>
+<!-- 头部 -->
+<div class="header">
+	<input type="text" value="SEARCH...">
+</div>
+
+<!-- 导航 -->
+<div class="navi">
+	<ul>
+    	<li>栏目</li>
+        <li>栏目</li>
+        <li>栏目</li>
+        <li>栏目</li>
+        <li>栏目</li>
+        <li>栏目</li>
+        <li>栏目</li>
+        <li style="border-right: none;">栏目</li>
+    </ul>
+</div>
+
+<!-- 底部 -->
+<div class="footer">
+	<div class="d1">
+    	<h2>产品中心</h2>
+        <ul class="u1">
+        	<li>汽车电机</li>
+            <li>日用电机</li>
+            <li>特种电机</li>
+            <li>大功率电机</li>
+            <li>电工设备</li>
+        </ul>
+        <ul class="u2">
+        	<li>工业驱动和自动化</li>
+            <li>工业驱动和自动化</li>
+            <li>工业驱动和自动化</li>
+            <li>工业驱动和自动化</li>
+        </ul>
+        <ul class="u3">
+        	<li>电池电源</li>
+            <li>电池电源</li>
+            <li>电池电源</li>
+            <li>电池电源</li>
+        </ul>
+    </div>
+    <div class="d2"></div>
+    <div class="d3"></div>
+</div>
+</body>
+</html>

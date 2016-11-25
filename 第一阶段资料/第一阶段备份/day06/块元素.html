@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*css rest*/
+body {
+	margin: 0;
+	padding: 0;
+}
+/*默认占一行，当没有设定宽度的时候，宽度为父元素的宽度。*/
+#parent {
+	height: 200px;
+	background: red;
+	text-align: center;/*让里面的内容居中对齐。*/
+	overflow: hidden;
+}
+#subBox {
+	margin: 10px auto;
+	height: 50px;
+	width: 50px;
+	background: blue;
+}
+#p1 {
+	height: 200px;
+	border: 4px solid red;
+}
+#p2 {
+	height: 100px;
+	width: 200px;
+	border: 4px solid black;
+}
+</style>
+</head>
+
+<body>
+<div id="parent">
+	<div id="subBox"></div>
+    <span>一段文字</span>
+</div>
+<!-- p标签中不能包含块元素包括p标签 !!!!!!!!!-->
+<p id="p1">	一段文字
+    <p id="p2">
+    另外一段文字。
+    </p>
+</p>
+</body>
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*去掉元素自带的属性，就叫做css reset*/
+body, h2, h3, h4, ul, li{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.header {
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+	background: skyblue;
+	background-image: url(img/logo.png);
+	background-position: 18px 34px;
+	background-repeat: no-repeat;
+}
+.header input {
+	width: 210px;
+	height: 28px;
+	background-color: #f1f1f1;
+	margin-top: 39px;
+	margin-left: 752px;
+	border: 1px solid #e5e5e5;
+	background-image: url(img/fangdajing.png);
+	background-position: 202px center;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+}
+
+
+.navi {
+	width: 1000px;
+	margin: 0 auto;	
+	background: #323232;
+}
+
+.navi ul {
+	overflow: hidden;
+	margin-left: 27px;
+}
+
+.navi li {
+	list-style: none;
+	float: left;
+	width: 119px;
+	border-right: 1px solid #4b4b4b;
+	background: #323232;
+	color: #fff;
+	font-size: 13px;
+	height: 59px;
+	line-height: 59px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.footer {
+	overflow: hidden;	
+	color: #5c5c5c;
+	width: 1000px;
+	margin: 0 auto;
+}
+.d1, .d2, .d3 {
+	float: left;
+	background: #e5e5e5;
+}
+.d1 {
+	padding-left: 21px;
+	padding-top: 22px;	
+	width: 451px;
+	height: 228px;
+}
+.d1 h2 {
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px solid #c2c2c2;
+	font-size: 16px;
+	padding-left: 12px;	
+	margin-bottom: 15px;
+}
+.d1 ul {
+	float: left;
+}
+.d1 .u1 {
+	margin-left: 5px;
+	width: 152px;
+}
+.d1 .u2 {
+	width: 193px;
+}
+.d1 .u3 {
+	width: 101px;
+}
+.d1 li {
+	line-height: 24px;	
+	font-size: 12px;
+	list-style: none;
+	padding-left: 13px;
+	/*
+	background-image: url(img/subicon.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	*/
+	background: url(img/subicon.png) no-repeat left center;
+}
+
+.displayArea {
+	width: 960px;
+	margin: 0 auto;
+	padding: 16px 20px 44px;
+	color: #4e4e4e;
+}
+
+.displayArea a:link, .displayArea a:visited, .displayArea a:hover, 
+.displayArea a:active{
+	color: #4e4e4e;
+}
+
+
+.displayArea h2 {
+	height: 51px;
+	line-height: 51px;
+	font-size: 18px;
+	color: #0e0e0e;
+}
+
+.displayArea p {
+	margin-top: 12px;
+	line-height: 24px;
+	font-size: 12px;
+}
+
+.displayArea img {
+	vertical-align: top;
+}
+
+.displayArea li {
+	float: left;
+	width: 210px;
+	margin-right: 40px;
+}
+.news {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.news .n1, .news .n2, .news .n3 {
+	float: left;
+}
+
+.news .n1 {
+	padding: 15px 28px 19px 22px;
+	width: 460px;
+}
+.news .n2 {
+	padding: 15px 20px 44px 26px;
+	background: #f1f1f1;
+	width: 195px;
+}
+.news .n3 {
+	padding: 16px 0 44px 25px;
+	background: url(img/flower.png) no-repeat 166px 121px;
+	width: 216px;
+	height: 200px;
+}
+.news h2 {
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+}
+.news h3 {
+	margin-top: 11px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 13px;
+	font-weight: normal;
+}
+.news h4 {
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.news .n2 p {
+	margin-top: 14px;
+	font-size: 11px;
+	line-height: 23px;	
+	color: #919191;
+}
+.news .n3 p {
+	font-size: 12px;
+	line-height: 25px;
+}
+.news li {
+	overflow: hidden;
+	list-style-position: inside;
+	font-size: 12px;
+	line-height: 26px;
+}
+.news li div, .news li span {
+	float: left;
+}
+.news li div {
+	width: 375px;
+	background: url(img/dot.png) no-repeat left center;
+	padding-left: 12px;
+}
+</style>
+</head>
+
+<body>
+<!-- 头部 -->
+<div class="header">
+	<input type="text" value="SEARCH...">
+</div>
+
+<!-- 导航 -->
+<div class="navi">
+	<ul>
+    	<li>栏目</li>
+        <li>栏目</li>
+        <li>栏目</li>
+        <li>栏目</li>
+        <li>栏目</li>
+        <li>栏目</li>
+        <li>栏目</li>
+        <li style="border-right: none;">栏目</li>
+    </ul>
+</div>
+
+<!-- 新闻 -->
+<div class="news">
+	<div class="n1">
+    	<h2>新闻资讯</h2>
+        <ul>
+        	<li>
+            	<div>陈建成董事长出席ATB集团召开年度销售大会。</div>
+                <span>2013-07-30</span>
+            </li>
+        	<li>
+            	<div>陈建成董事长出席ATB集团召开年度销售大会。</div>
+                <span>2013-07-30</span>
+            </li>
+        	<li>
+            	<div>陈建成董事长出席ATB集团召开年度销售大会。</div>
+                <span>2013-07-30</span>
+            </li>
+        	<li>
+            	<div>陈建成董事长出席ATB集团召开年度销售大会。</div>
+                <span>2013-07-30</span>
+            </li>
+        	<li>
+            	<div>陈建成董事长出席ATB集团召开年度销售大会。</div>
+                <span>2013-07-30</span>
+            </li>
+        	<li>
+            	<div>陈建成董事长出席ATB集团召开年度销售大会。</div>
+                <span>2013-07-30</span>
+            </li>
+        </ul>
+    </div>
+    <div class="n2">
+    	<h2>卧龙介绍</h2>
+        <h3>公司成立于1984年，</h3>
+        <h4>经过近30年的发展</h4>
+        <p>已成为电器制造，房地产开发和金融投资三业并举的综合性跨国...
+        </p>
+    </div>
+    <div class="n3">
+    	<h2>人才招聘</h2>
+        <p>培养一流的人才，铸造一流的工程<br>实现员工与企业的共同发展</p>
+    </div>
+</div>
+
+<!-- 展示区 -->
+<div class="displayArea">
+	<h2>卧龙市场</h2>
+	<ul style="overflow: hidden;">
+    	<li><a href="#" style="text-decoration: none;">
+        	<img src="img/disp01.png">
+            <p>交通轨道：由于主要采用电气牵引，而且轮轨摩擦阻力较小，与公共...</p>
+            </a>
+        </li>
+    	<li>
+        	<img src="img/disp01.png">
+            <p>交通轨道：由于主要采用电气牵引，而且轮轨摩擦阻力较小，与公共...</p>
+        </li>
+    	<li>
+        	<img src="img/disp01.png">
+            <p>交通轨道：由于主要采用电气牵引，而且轮轨摩擦阻力较小，与公共...</p>
+        </li>
+    	<li style="margin-right: 0px;">
+        	<img src="img/disp01.png">
+            <p>交通轨道：由于主要采用电气牵引，而且轮轨摩擦阻力较小，与公共...</p>
+        </li>
+    </ul>
+</div>
+
+<!-- 底部 -->
+<div class="footer">
+	<div class="d1">
+    	<h2>产品中心</h2>
+        <ul class="u1">
+        	<li>汽车电机</li>
+            <li>日用电机</li>
+            <li>特种电机</li>
+            <li>大功率电机</li>
+            <li>电工设备</li>
+        </ul>
+        <ul class="u2">
+        	<li>工业驱动和自动化</li>
+            <li>工业驱动和自动化</li>
+            <li>工业驱动和自动化</li>
+            <li>工业驱动和自动化</li>
+        </ul>
+        <ul class="u3">
+        	<li>电池电源</li>
+            <li>电池电源</li>
+            <li>电池电源</li>
+            <li>电池电源</li>
+        </ul>
+    </div>
+    <div class="d2"></div>
+    <div class="d3"></div>
+</div>
+</body>
+</html>

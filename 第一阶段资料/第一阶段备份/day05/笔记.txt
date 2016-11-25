@@ -1,0 +1,57 @@
+1.padding的写法：
+四个值：上   右   下   左 {padding:10px   20px   30px    40px;}
+三个值：上    左右    下 {padding:10px   20px   30px;}
+二个值：上下    左右 {padding:10px   20px;}
+一个值：四个方向 padding:2px; /*定义元素四周填充为2px*/
+
+2.margin同理
+
+3.overflow文本溢出
+visible:默认值，内容不会被修剪，会成现在元素框之外；
+hidden：内容会被修剪，并且其余内容是不可见的；
+scroll：内容会被修剪，但是浏览器会显示滚动条，以便查看其余的内容;
+auto：如果内容被修剪，则浏览器会显示滚动条，以便查看其他的内容;
+inherit：规定应该从父元素继承overflow属性的值
+
+4.空余空间
+white-space：normal/pre/nowrap/pre-wrap /pre-line /inherit
+该属性用来设置如何处理元素内的空白；
+normal：默认值，空白会被浏览器忽略，
+pre：空白会被浏览器保留，其行为方式类似HTML中的pre标签；
+nowrap:文本不会换行，文本会在同一行上继续，直到遇到<br/>标签为止；
+pre-wrap：保留空白符序列，但是正常的进行换行；
+pre-line:合并空白符序列，但是保留换行符；
+inherit：规定应该从父元素继承White-space属性的值；(ie浏览器不支持此属性值)
+
+5. word-break: break-all; 强制换行。
+浏览器默认是不会切断英文单词的显示的。
+
+6. 文本溢出属性 text-overflow: clip/ellipsis
+必须有下面四个属性
+width: xxx;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+
+7. 特殊符号
+&gt;      >
+&lt;      <
+&nbsp;    空格
+扩展知识：
+	跨站脚本攻击 xss
+	SQL注入-->攻击数据库
+
+8. img标签的下边缘距离容器有三像素的空隙。
+这个就叫做图片的3像素bug.
+解决方法：
+	1. vertical-align: top;  (baseline BCF)
+	2. display: block;
+	3. margin-bottom: -3px;
+
+html5时代按钮通常用a标签来模拟。
+尤其是移动端基本上不适用button。
+
+<input type="submit" value="提交" />
+
+9. class属性里面是可以写多个class名
+用空格连接，class名先后顺序无关。

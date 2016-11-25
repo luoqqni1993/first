@@ -1,0 +1,39 @@
+表单域<form name="" method="" action=""></form>
+用来包裹表单元素。用来收集用户的信息的。
+表单元素：
+input(text, password, radio, checkbox...)
+select
+textarea
+
+我们的网页运行在用户的浏览器中，
+在点击提交的时候，form把填写好的信息打包发送给服务器。
+
+2.提示信息标签
+<label for="绑定控件id名"></label>
+功能：label元素用来定义标签，为页面上的其他元素指定提示信息。要将label元素绑定到其他的控件上，可以将label元素的for属性设置为与该控件的id属性值相同。
+
+<label><input type="checkbox" name="c" id="chk4" />烫头</label>
+
+3. file文件上传
+不能进行样式定制的。
+
+4. table
+table, tr, td
+caption 表格的标题(推荐使用h标签来做标题)
+thead,th 表格的头部
+tbody 表格的主题
+tfoot 表格的末尾
+
+相关的css
+border-spacing 表格之间的距离。
+border-collapse:separate(边框分开)/collapse(边框合并)；
+empty-cells:show/hide; IE如果有问题的话，需要加&nbsp;
+table-layout: fixed;通常和word-break: break-all; 配合使用。
+
+（扩展）名词：
+渐进增强
+优雅降级
+
+code review 代码评审
+
+checkbox/radio 加号选择器 label

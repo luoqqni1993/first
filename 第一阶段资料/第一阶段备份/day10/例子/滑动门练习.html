@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+body, ul, li{
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	color: #fff;
+	margin-left: 1px;
+	list-style: none;
+	float: left; /*float会自动添加display: block属性。*/
+}
+a, span {
+	display: block;
+	height: 28px;
+	line-height: 28px;	
+}
+li a {
+	background: url(img/left.gif) left -57px no-repeat;
+}
+li span {
+	background: url(img/right.gif) right -57px no-repeat;
+}
+.li1:hover a {
+	background: url(img/left.gif) left -87px no-repeat;
+}
+.li1:hover span {
+	background: url(img/right.gif) right -87px no-repeat;
+}
+
+.li2:hover a {
+	background: url(img/left.gif) left -117px no-repeat;
+}
+.li2:hover span {
+	background: url(img/right.gif) right -117px no-repeat;
+}
+</style>
+</head>
+
+<body>
+<ul>
+	<li class="li1">
+    	<a>
+        	<span>首页</span>
+        </a>
+    </li>
+	<li class="li2">
+    	<a>
+        	<span>数码产品</span>
+        </a>
+    </li>
+</ul>
+</body>
+</html>

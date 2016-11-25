@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+#parent div {
+	height: 100px;
+	width: 100px;
+	display: inline-block; /* 行内块元素,既可以在一行也可以有宽高。*/
+	font-size: 16px;
+	vertical-align: top; /*解决inline-block没有对齐的方法。*/
+}
+#d1 {
+	background: red;
+}
+#d2 {
+	background: blue;
+}
+#d3 {
+	background: yellow;
+}
+#parent {
+	width: 300px;
+	font-size: 0;
+	background: black;
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+<div id="parent">
+    <div id="d1">123</div>
+    <div id="d2"></div>
+    <div id="d3">132</div>
+</div>
+</body>
+</html>

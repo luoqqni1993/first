@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*属性选择器：[属性=属性值]*/
+input[type=text] {
+	border: 1px solid red;
+	width: 200px;
+}
+input {
+	border: 0;/*兼容IE6的写法，去掉边框。正常写法应该写none*/
+}
+</style>
+</head>
+
+<body>
+用户名：<input type="text" value="" />
+密码：<input type="password" value="" />
+</body>
+</html>

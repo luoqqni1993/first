@@ -1,0 +1,26 @@
+1. overflow的属性值，分别是什么意思。
+visible: 默认值，超出容器的部分可见。没有滚动条。
+hidden: 超出部分不显示。（清浮动, margin-top把父元素顶下来的问题）
+scroll: 始终显示滚动条。
+auto: 根据内容来自动判断是否需要显示滚动条。
+inherit: 继承父元素的设定值。
+
+2. 显示省略号需要设定哪些属性。
+text-overflow: ellipsis;
+width: xxxpx;
+overflow: hidden;
+white-space: nowrap;
+
+3. padding和margin的设定顺序。
+上右下左
+10px 20px 15px; 左边也是20px
+10px 20px; 左边20px，下边是10px
+
+4. 强制换行
+word-break: break-all;
+<br>
+
+5. 背景图片的位置显示在右边中间。
+background-position: right center;
+所有的坐标系都是以左上角为起点，
+y轴向下是正，x轴向右是正。

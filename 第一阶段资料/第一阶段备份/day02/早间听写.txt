@@ -1,0 +1,48 @@
+1. web标准的组成
+结构	xhtml,xml
+表现	css
+行为	dom, ECMAScript
+
+2. html5的组成
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8" >
+	</head>
+	<body>
+	</body>
+</html>
+
+3. 三种列表
+无序	ul li
+有序	ol li
+自定义	dl dt dd
+
+4. 数据表格 
+横向合并的属性 colspan="数字"
+纵向合并的属性 rowspan="数字"
+
+5. 列举标签对
+<标签></标签>
+html
+head
+body
+title
+style
+div
+span
+ul
+li
+p
+dl
+dt
+dd
+em
+i
+b
+strong
+h1-h6
+a
+textarea
+select option

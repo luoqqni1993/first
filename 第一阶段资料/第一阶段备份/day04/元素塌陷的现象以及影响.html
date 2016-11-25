@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*块元素：默认占据一行。对块元素来讲，有高度和宽度属性。*/
+.d1 {
+	width: 500px;
+	height: 240px;
+	background-color: red;
+}
+.d2 {
+	width: 240px;
+	height: 240px;
+	background-color: grey;
+}
+.d3 {
+	width: 260px;
+	height: 240px;
+	background-color: blue;
+}
+.d1, .d2, .d3{
+	float: left;
+}
+.wrap {
+	width: 1000px;
+	/*overflow: hidden;*/
+}
+.wrap2 {
+	width: 1000px;
+	height: 100px;
+	background: yellow;
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+    <div class="d1"></div>
+    <div class="d2"></div>
+    <div class="d3"></div>
+</div>
+<div class="wrap2"></div>
+</body>
+</html>

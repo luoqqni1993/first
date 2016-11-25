@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<script src="js/jquery.min.js"></script>
+<style>
+body, ul, li {
+	margin: 0px;
+	padding: 0px;	
+}
+li {
+	list-style: none;
+}
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.box {
+	width: 760px;
+	background-color: #333;
+}
+.box li {
+	float: left;
+	height: 258px;
+	width: 80px;
+	transition-duration: 0.6s;	
+}
+.box li.on,
+.box li:hover {
+	width: 600px !important;
+}
+#g1 {
+	background: url(img/pic_small1.jpg) no-repeat left top;	
+}
+#g2 {
+	background: url(img/pic_small2.jpg) no-repeat left top;	
+}
+#g3 {
+	background: url(img/pic_small3.jpg) no-repeat left top;	
+}
+#g1.on,
+#g1:hover {
+	background: url(img/pic_big1.jpg) no-repeat left top;	
+}
+#g2.on,
+#g2:hover {
+	background: url(img/pic_big2.jpg) no-repeat left top;	
+}
+#g3.on,
+#g3:hover {
+	background: url(img/pic_big3.jpg) no-repeat left top;	
+}
+</style>
+</head>
+
+<body>
+<ul class="box clear">
+	<li id="g1" class="on">
+    </li>
+	<li id="g2">
+    </li>
+	<li id="g3">
+    </li>
+</ul>
+<script>
+$("li").on("mouseover", function(){
+	$("li").removeClass("on");
+	$(this).addClass("on");
+});
+var i = 0;
+setInterval(function(){
+	$("li").removeClass("on");
+	$("li").eq(i%3).addClass("on");
+	i++;
+},2000);
+</script>
+</body>
+</html>

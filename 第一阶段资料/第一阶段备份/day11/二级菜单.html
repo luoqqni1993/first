@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.level1:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.level1 > li {
+	float: left;
+	width: 100px;
+	background: #999;
+	color: white;
+	height: 50px;
+	line-height:50px;
+	text-align: center;
+}
+.level2 {
+	background: red;
+	display: none;
+}
+#phone:hover .level2 {
+	display: block;
+}
+</style>
+</head>
+
+<body>
+<ul class="level1">
+	<li id="phone">手机
+    	<div class="level2">
+            <ul>
+                <li>小米1</li>
+                <li>小米2</li>
+                <li>小米3</li>
+                <li>小米4</li>
+                <li>小米5</li>
+            </ul>
+        </div>
+    </li>
+    <li>智能家电</li>
+    <li>小米无人机</li>
+</ul>
+<div style="width: 200px;height: 200px;background: black;"></div>
+</body>
+</html>

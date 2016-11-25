@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*
+作用：该滤镜可以为对象建立一个覆盖于表面的膜，其效果就象戴着有色眼镜看物体一样。 
+语法： {filter:mask(color=color)}
+参数：该滤镜的color参数表示覆盖对象表面的颜色，例如如果遮罩颜色为绿色，那么就应该设置color=blue。
+*/
+div {
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+#ft {
+	filter:Mask(Color="#000");
+}
+</style>
+</head>
+
+<body>
+<div>Everyday is a gift</div>
+<div id="ft">Everyday is a gift</div>
+</body>
+</html>

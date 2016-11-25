@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*disc(实心圆)/circle（空心圆）/square(实心方块 )none(去掉列表符号)；*/
+.inside li {
+	list-style: square;
+	list-style-position: inside;/*有两个值 inside，outside*/
+}
+.outside li {
+	list-style: square;
+	list-style-position: outside;
+}
+.img li {
+	list-style-position: inside;
+	list-style-image: url(img/cat.gif);	
+}
+</style>
+</head>
+
+<body>
+<ul class="img">
+	<li>十三陵</li>
+    <li>长城</li>
+    <li>故宫</li>
+</ul>
+<ul class="inside">
+	<li>十三陵</li>
+    <li>长城</li>
+    <li>故宫</li>
+</ul>
+<ul class="outside">
+	<li>十三陵</li>
+    <li>长城</li>
+    <li>故宫</li>
+</ul>
+</body>
+</html>

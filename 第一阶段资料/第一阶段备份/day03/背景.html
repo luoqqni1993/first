@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+p {
+	height: 100px;
+	width: 200px;
+	background-color: red;
+}
+h1 {
+	height: 300px;
+	width: 600px;
+	font-size: 60px;
+	border: 1px solid #000;
+	/*背景图不占据空间。*/
+	/*背景图片background-image*/
+	background-image: url(img/cat.gif);
+	/*背景平铺属性：background-repeat:no-repeat/repeat/repeat-x/repeat-y*/
+	background-repeat: no-repeat;
+	/*背景图片的位置，格式：x坐标 y坐标
+	x坐标：具体的像素值也可以是left right center
+	y坐标: 具体的像素值也可以是top bottom center
+	*/
+	background-position: 10px 20px;/*center center正中间*/
+	/*设置背景图片的大小 background-size 形式：宽度 高度
+	宽度和高度的默认值是auto,代表浏览器自动调整。 也可以是具体的像素值。
+	通常只设定宽或者高，另外一个写auto
+	*/
+	background-size: 500px auto;
+}
+</style>
+</head>
+
+<body>
+<p></p>
+<h1>很好</h1>
+</body>
+</html>

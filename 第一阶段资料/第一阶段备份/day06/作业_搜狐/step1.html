@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*css reset*/
+body, h2, h3, ul, li {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+img {
+	vertical-align: top;
+}
+
+.wrap {
+	padding: 23px 0 0 16px;
+}
+
+#nav h2, #nav ul, #nav li {
+	float: left;
+	line-height: 28px;
+}
+#nav h2 {
+	font-size: 24px;
+	width: 111px;
+}
+#nav li {
+	padding: 0 15px;
+	background: url(img/line.png) no-repeat left center;
+	font-size: 12px;
+	transition-duration: 0.5s;
+}
+
+#nav  .noline {
+	background-image: none;
+}
+#nav li:hover, #nav  .selected  {
+	background: #e73c31;
+}
+#nav li:hover a, #nav  .selected a {
+	color: #fff;
+}
+
+#content {
+	margin-top: 11px;
+}
+
+#content .c1, #content .c2, #content .c3 {
+	float: left;
+}
+#content .c2 {
+	margin: 0 20px;
+}
+#content .c2 h3 {
+	font-size: 14px;
+	line-height: 34px;
+	height: 34px;
+}
+#content .c2 span {
+	font-size: 12px;
+	color: #999999;
+}
+.c21 {
+	overflow: hidden;
+	border-bottom: 1px dotted #d3d3d3;
+	padding-bottom: 19px;
+}
+.c21 div, .c22 div {
+	width: 170px;
+	float: left;
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+	<div id="nav" style="overflow: hidden;">
+    	<h2>热播推荐</h2>
+        <ul style="overflow: hidden;">
+        	<li class="noline"><a href="#">了不起的挑战</a></li>
+            <li><a href="#">综艺最看点</a></li>
+            <li class="selected"><a href="#">美综专区</a></li>
+        </ul>
+    </div>
+    <div id="content" style="overflow: hidden;">
+    	<div class="c1">
+        	<img src="img/big.png">
+        </div>
+        <div class="c2">
+        	<div class="c21">
+            	<div style="margin-right: 20px;">
+                	<img src="img/s01.png" />
+                    <h3>《艾伦秀》第13季</h3>
+                    <span>奥巴马都要派对上的日间秀</span>
+                </div>
+            	<div>
+                	<img src="img/s02.png" />
+                    <h3>《艾伦秀》第13季</h3>
+                    <span>奥巴马都要派对上的日间秀</span>
+                </div>
+            </div>
+            <div class="c22">
+            	<div style="margin-right: 20px;">
+                    <h3>《艾伦秀》第13季</h3>
+                    <span>奥巴马都要派对上的日间秀</span>
+                </div>
+            	<div>
+                    <h3>《艾伦秀》第13季</h3>
+                    <span>奥巴马都要派对上的日间秀</span>
+                </div>
+            </div>
+        </div>
+        <div class="c3"></div>
+    </div>
+</div>
+</body>
+</html>

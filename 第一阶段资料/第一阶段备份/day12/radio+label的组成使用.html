@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+label {
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border: 1px solid transparent;
+}
+input[type=radio] {
+	display: none;
+}
+input[type=radio]:checked + label {
+	border: 1px solid red;
+}
+/*checkbox/radio 加号选择器 label*/
+</style>
+</head>
+
+<body>
+<input type="radio" name="color" id="c1" />
+<label for="c1">铂光金</label>
+<input type="radio" name="color" id="c2" />
+<label for="c2">东北银</label>
+<input type="radio" name="color" id="c3" />
+<label for="c3">星钻黑</label>
+</body>
+</html>

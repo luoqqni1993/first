@@ -1,0 +1,69 @@
+1.字体font-size 浏览器的默认字体大小是16px（非常重要！！！）
+px像素
+pt磅
+em代表一个标准字体
+9pt=12px
+1em=16px
+使用绝对大小关键字
+谷歌浏览器不支持11像素以下的字体。
+(如果需要小字体需要使用css3的高级属性)
+xx-small   =9px
+x-small    =11px
+small      =13px
+medium     =16px
+large      =19px
+x-large    =23px
+xx-large   =27px
+
+2.颜色有两种
+第一种：颜色的单词 pink, blue, white, yellow...
+第二种：#六个16进制的数字 例如：#ffffff白色， #000000黑色
+RGB：红绿蓝三原色
+
+3.文本字体：{font-family:"雅黑", "Times New Roman", ...;}
+工作时字体相关的信息，由UI来提供。
+说明：
+*当字体是中文字体时需加引号；
+*当英文字体中有空格时需加引号如"Times New Roman"；
+
+font属性的简写：
+说明:font的属性值应按以下次序书写(各个属性之间用空格隔开)
+顺序: font-style | font-weight | font-size / line-height | font-family
+
+/前面是字体大小，后面是行高
+例如：12px/1.5em 字体12像素 行高24像素。
+
+font-weight代表字体的粗细: 默认值normal, 其他值是bold, bolder。
+也可以写100-900 整百的数值。
+100-500常规字体, 600-900加粗字体 
+
+font-style文字倾斜 默认值normal，其他值是italic, oblique;
+
+text-align水平对齐方式
+默认值left/right/center/justify（失效属性）
+
+vertical-align垂直对齐方式
+默认值top/bottom/middle
+
+line-height:行高
+
+定义列表符号样式：
+*list-style-type:disc(实心圆)/circle（空心圆）/square(实心方块 )none(去掉列表符号)；
+*使用图片作为列表符号：list-style-image:url(所使用图片的路径及全称);
+对图片格式没有任何要求，只要网页上可以显示的图片都可以。jpg,png,gif
+*定义列表符号位置：list-style-position:outside/inside;
+做不到的：
+1.小点和内容的距离是不能精确调整的。
+2.list-style-image的图片是不能通过css来调整大小的。
+
+文本修饰：text-decoration:none/underline/overline/line-through/blink.
+blink(废弃属性)
+
+坐标轴的顶点：是该元素的左上角，x正值代表向右，y正值代表向下。
+
+非常重要！！！！！！！！！
+float:left/right会使父元素高度塌陷。（撑不起来父元素。）
+有N种解决方案：
+1. 给父元素添加 overflow: hidden;
+2. 给父元素设定合适的高度。 ---> 太业余。非常不推荐。
+3. 万能清浮动。 --> 最专业的方法

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+#msg {
+	color: white;
+	background: #666;
+	width: 600px;
+	height: 200px;
+	line-height: 200px;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 10px;
+	margin: 120px auto;
+	position: relative;
+	box-shadow: 8px 8px 18px #333; /* 扩展知识：css3的阴影属性。*/
+}
+.close {
+	position: absolute;
+	right: -25px;
+	top: -25px;
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	background: red;
+	text-align: center;
+	line-height: 60px;
+	color: white;
+}
+</style>
+</head>
+
+<body>
+<div id="msg">
+    <div class="close" onclick="document.getElementById('msg').style.display='none';">X</div>
+    对不起，您的账号或密码不对。
+</div>
+</body>
+</html>

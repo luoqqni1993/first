@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*
+使用"Chroma'属性可以设置一个对象中指定的颜色为透明色，参数COLOR即要透明的颜色。   
+*/
+img {
+	width: 300px;
+}
+#ft {
+	filter:chroma(color="#5def20");
+}
+</style>
+</head>
+
+<body>
+<img src="img/pic2.jpg" alt="这是一个图片" />
+<img id="ft" src="img/pic2.jpg" alt="这是一个图片" />
+</body>
+</html>

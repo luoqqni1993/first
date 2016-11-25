@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+#goods {
+	height: 320px;
+	width: 180px;
+	background: pink;
+	position: relative;
+	overflow: hidden;
+	color: white;
+}
+
+.more {
+	height: 320px;
+	width: 180px;
+	background: url(img/cat.gif) no-repeat center center;
+	position: absolute;
+	background-color: rgba(0,0,0, 0.2);/*扩展知识：rgba(红色, 绿色, 蓝色, 透明度) 颜色值是10进制的0-255。透明度是从0-1的小数。*/
+	left: 0;
+	top: 320px;
+	transition-duration: 0.5s;
+}
+
+#goods:hover .more {
+	top: 0px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="goods">
+	<div class="more"></div>
+    想象一下这是马上要出的三星note7
+</div>
+
+</body>
+</html>

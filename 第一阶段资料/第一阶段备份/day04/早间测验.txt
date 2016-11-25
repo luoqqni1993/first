@@ -1,0 +1,33 @@
+1. 文字大小有哪些单位。怎么换算。
+px, pt, em
+9pt=12px
+1em=16px
+
+2. 文字粗体属性名，三个属性值。
+font-weight 默认normal bold bolder
+100-900
+正在字体的数字范围 100-500
+粗体的数字范围 600-900
+
+3. 边框 3像素实线黑色
+border: 3px solid black;
+
+4. 不显示下边框
+border-bottom: none;
+
+5. 背景色白色
+background-color: white;
+背景图片：背景图片在img文件夹下的cat.gif
+background-image: url(img/cat.gif);
+背景位置：正中间。
+background-position: center center;
+背景的大小：宽100像素高自适应。
+background-size: 100px auto;
+背景平铺：不平铺
+background-repeat: no-repeat;
+
+6. 浮动的问题的解决方案：
+问题会导致父元素高度塌陷。
+1. 给父元素添加overflow: hidden;
+2. 给父元素设置高度 ---> 不推荐
+3. 万能清浮动。 推荐，高级。

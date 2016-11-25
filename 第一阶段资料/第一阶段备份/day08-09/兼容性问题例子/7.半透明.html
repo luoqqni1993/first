@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+.box {
+	width: 300px;
+	height: 400px;
+	background: white;
+	border: 2px solid red;
+	position: relative;	
+}
+.s1, .s2 {
+	width: 100%;
+	height: 100%;
+}
+.s2 {
+	color: white;
+	background: black;/* rgba(0,0,0,0.5) */
+	position: absolute;
+	left: 0px;
+	top: 0px;	
+    opacity: 0.5; /*这个用来做半透明 */
+	filter:alpha(opacity=50);
+}
+</style>
+</head>
+
+<body>
+<div class="box">
+	<div class="s1">
+    一些文字
+    </div>
+	<div class="s2">
+		魔兽是世界上最好的游戏。为了联盟。
+    	<img src="img/logo.png"/>
+    </div>
+</div>
+</body>
+</html>

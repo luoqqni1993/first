@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*
+作用：波纹滤镜可以在水平和竖直方向利用正弦波打乱图象，使图象产生水波效果。 
+语法：{filter:wave(add=add,freq=freq,lightstrength=strength,phase=phase,strength=strength)} 
+参数：该滤镜的add参数是一个布尔数值，它是用来表示是否要把对象按照波形样式打乱；freq参数是用来设置波纹频率的，也就是指定在对象上一共需要产生多少个完整的波纹；lightstrength参数可以设置波纹光影的增强效果的，其数值范围在0到100之间；phase参数是用来设置正弦波的偏移量的，strength是设置正弦波的振幅大小的。   
+*/
+#ft {
+	filter: wave(add=true,freq=5,lightstrength=30,phase=2,strength=10);
+}
+</style>
+</head>
+
+<body>
+<img src="img/pic1.jpg" alt="这是一个图片" />
+<img id="ft" src="img/pic1.jpg" alt="这是一个图片" />
+</body>
+</html>

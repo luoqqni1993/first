@@ -1,0 +1,38 @@
+1.块状元素（block element） 
+1）块状元素在网页中就是以块的形式显示，所谓块状就是元素显示为矩形区域，常用的块状元素包块div,dl,dt,dd,ol,ul,fieldset,(h1-h6),p,form,hr,colgroup,col,table,tr,td,等；
+2）默认情况下，块状元素都会占据一行，通俗地说，两个相邻块状元素不会出现并列显示的现象；默认情况下，块状元素会按顺序自上而下排列。
+	当没有设定宽度的时候，宽度为父元素的宽度。 
+3）块状元素都可以定义自己的宽度和高度。 
+4）块状元素一般都作为其他元素的容器，它可以容纳其它内联元素和其它块状元素。我们可以把这种容器比喻为一个盒子。
+
+注意：p标签中不能包含块元素包括p标签。
+
+2.text-align: center; 加给父元素，用来控制父元素中的内容居中对齐。
+
+3.内联元素（inline element）（或是行内元素）
+1) 常见的内联元素如：a,span,i,em,strong,b,del等
+2) 内联元素的表现形式是始终以行内逐个进行显示；
+3) 内联元素没有自己的形状，不能定义它的宽和高,它显示的宽度、高度只能根据所包含内容的高度和宽度来确定，它的最小内容单元也会呈现矩形形状；
+4)内联元素也会遵循盒模型基本规则，如可以定义padding,border,margin,background等属性，但个别属性不能正确显示;
+
+4.元素类型转换
+1）display属性与属性值	(18个属性值)
+属性值：block/inline/inline-block/none/list-item/
+table-header-group/table-footer-group/table/table-row/table-cell
+
+5.解决inline-block没有对齐的方法。
+vertical-align: top;
+
+6.使块元素在一行内显示的方法：
+第一种：float: left; 注意：父元素要清浮动。
+第二种：display: inline-block; 父元素font-size: 0;在子元素恢复font-size
+
+7.浮动(float)会使元素变成块元素。
+
+8.display: none;和visibility: hidden; 
+两个都是隐藏元素。
+display: none; /*隐藏元素。不显示。不占据空间。*/
+visibility: hidden; /*隐藏元素。不显示。占据空间。
+
+9.多行文字纵向居中的方法。
+把元素的display属性设定为table-cell

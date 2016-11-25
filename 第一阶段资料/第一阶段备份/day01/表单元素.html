@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+<!-- method：get/post -->
+<form method="get" action="">
+    用户名：<input name="username" type="text" value="quanzs" />
+    <br/>
+    密码：<input name="psw" type="password" value="" />
+    <br/>
+    <!-- 单选按钮的name必须相同。-->
+    性别：<input type="radio" name="sex" />男
+    <input type="radio" name="sex" checked="checked" />女
+    <input type="radio" name="sex" disabled="disabled" />不明
+    <br/>
+    <!-- 多选框也叫作复选框 
+    name必须相同。
+    checked="checked" 默认选中
+    disabled="disabled" 不能选择
+    -->
+    爱好：<input type="checkbox" name="habit" checked="checked" />逛街
+    <input type="checkbox" name="habit" checked="checked" />吃
+    <input type="checkbox" name="habit" />旅游
+    <input type="checkbox" name="habit" disabled="disabled" />网上购物
+    <input type="checkbox" name="habit1" />宅在家
+    <br/>
+    希望定居的城市：
+    <select>
+    	<option>北京</option>
+        <option>上海</option>
+        <option>广州</option>
+        <option>深圳</option>
+        <option>纽约</option>
+    </select>
+    <br/>
+    其他：
+    <!-- rows可见行数，超过这个行数自动出现滚动条
+    cols一行所容纳的文字数。
+    -->
+    <textarea rows="5" cols="20">
+    </textarea>
+    <br/>
+    <br/>
+    <!-- submit：把表单元素的值提交给action设定的地址。-->
+    <input type="submit" value="登录" />
+    <!-- reset：恢复到表单的初始状态。-->
+    <input type="reset" value="重置" />
+    <!-- 普通按钮，在给绑定事件(第二阶段交互的知识)之前，什么都不做。点击没有任何反应。 -->
+    <input type="button" value="普通按钮" />
+</form>
+</body>
+</html>

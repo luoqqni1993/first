@@ -1,0 +1,409 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+body,ul,li,h1,p,span{margin:0px;
+     padding:0px;}
+img{vertical-align:top;}
+#header{width:1330px;
+     height:35px;
+	 background:#e4e4e4;
+	}
+#header li{font-size:12px;
+        list-style:none;
+		float:left;
+		height:13px;
+		line-height:13px;
+		color:#686a69;
+	}
+#header .a1{width:318px;
+         height:13px;
+		 float:left;
+		 margin-left:166px;
+		 margin-top:11px;
+		 }
+#header .a1 li{padding-left:7px;
+            padding-right:10px;
+			border-right:1px solid #ffffff;
+	}
+#header .a2{width:191px;
+         height:13px;
+		 float:left;
+		 margin-left:315px;
+		 margin-top:11px;
+	}
+#header .a2 li{padding-right:17px;
+     
+	}
+#header .a3{height:20px;
+          width:140px;
+		  margin-left:8px;
+		  margin-top:10px;
+		  background:#fdfffc;
+		  border:none;
+		  font-size:12px;
+		  color:#c9c9c7;
+		  float:left;
+		  }
+#header .a4{margin-left:6px;
+         margin-top:8px;
+	}
+#nav{width:1330px;
+     height:44px;
+	 background:#d92b34;
+	}
+#nav .a1{width:1028px;
+          height:44px;
+		  margin-left:164px;
+		  background:#c8141f;
+		  }
+#nav li{color:#feffff;
+        font-weight:bold;
+		float:left;
+		list-style:none;
+		padding-right:38px;
+		line-height:44px;
+	}
+#total{width:1330px;
+       height:330px;
+	   background:#e6e6e6;
+	}
+#total img{margin-left:164px;
+           float:left;
+	}
+#total .main{width:315px;
+            height:318px;
+			background:#eeeeee;
+			float:left;
+			border-bottom:3px solid #c8141f;
+	}
+#total li{font-size:12px;
+          list-style:none;
+		  height:47px;
+		  line-height:18px;
+		  width:252px;
+		  padding-top:9px;
+		  border-bottom:1px dotted #d5d5d5;
+	}
+#total .main{padding-left:43px;
+             padding-top:9px;
+			 margin-top:-297px;
+            
+	}
+#content{width:1330px;
+         height:588px;
+		 border-bottom:5px solid #ff9c00;
+		 }
+#content .wrap{width:761px;
+                 height:553px;
+				 float:left;
+				 margin-top:40px;
+				 margin-left:164px;}
+#content .a1{width:308px;
+             height:251px;
+			 float:left;
+	}
+#content .a2{width:453px;
+             height:251px;
+			 float:left;
+	}
+#content .a3{width:308px;
+             height:302px;
+			 float:left;
+	}
+#content .a4{width:453px;
+             height:302px;
+			 float:left;
+	}
+#content h1{height:40px;
+            line-height:40px;
+			font-size:16px;
+			border-bottom:1px solid #dfdfdf;
+	}
+#content .a1 p{font-size:12px;
+               font-weight:bold;
+			   color:#656565;
+			   margin-top:8px;
+			   margin-left:10px;
+	}
+#content .a2 p{font-size:12px;
+                height:60px;
+				line-height:20px;
+				width:346px;      
+	}
+#content .a2 .p1{padding-top:19px;
+                 background:url(img/%E6%97%A5%E6%9C%9F%E8%A1%A81.png) no-repeat left bottom;
+				 padding-left:78px;
+				 border-top:1px solid #ececec;
+	}
+#content .a2 .p2{margin-top:13px;
+                 background:url(img/%E6%97%A5%E6%9C%9F%E8%A1%A82.png) no-repeat left center;
+				 padding-left:78px;
+	}
+#content .a3 li,#content .a4 li{height:24px;
+                line-height:24px;
+				font-size:12px;
+				list-style:none;
+				
+	}
+#content .a3 ul{border-top:1px solid #d2d2d2;
+                width:272px;}
+#content .a3 div{width:239px;
+                  float:left;}
+#content .a3 span{float:left;}
+#content .a4 ul{border-top:1px solid #d2d2d2;
+                width:423px;}
+#content .a4 div{width:390px;
+                  float:left;}
+#content .a4 span{float:left;}
+#content .mark{margin-top:40px;
+                float:left;}
+#content .dengru{width:242px;
+                  height:256px;
+				  float:left;
+				  margin-top:20px;}
+#content .dengru li{height:50px;
+                    line-height:50px;
+					float:left;
+					list-style:none;
+					color:#868688;
+					width:70px;
+					margin-right:20px;
+					font-weight:bold;
+					border-bottom:1px solid transparent;
+	}
+#content .dengru ul{width:242px;
+                    border-bottom:1px solid #cccccc;
+					overflow:hidden;
+	}
+#content .dengru li:hover{color:#c91579;
+                           border-bottom:1px solid #c8141f;}
+#content .dengru .username{height:26px;
+                           width:220px;
+						   margin-top:32px;
+						   font-weight:bold;
+	}
+#content .dengru .psw{height:26px;
+                      width:220px;
+					  margin-top:4px;
+					  font-weight:bold;
+	}
+#content .dengru .submit{background:#f0f0f0;
+                        width:77px;
+						height:21px;
+						text-align:center;
+						margin-top:4px;
+						color:#000000;
+						text-decoration:none;
+						float:left;
+					    border:1px solid #dfdfdf;
+						
+                      
+	}
+#content .dengru .forget{margin-top:4px;
+                       color:#000000;
+					   text-decoration:none;
+					   float:left;
+					   height:21px;
+					   width:88px;
+					   margin-left:48px;
+					   
+	}
+#arrow{width:1330px;
+       height:25px;
+	   background:url(img/%E7%AE%AD%E5%A4%B4.png) no-repeat top center #ebebeb;
+	}
+#out{width:1330px;
+      height:43px;
+	  background:#d4d4d4;
+	}
+#out li{font-size:12px;
+        float:left;
+		list-style:none;
+		height:43px;
+		line-height:43px;
+	}
+#copyright{width:1330px;
+         height:130px;
+		 background:#302728;
+	}
+#copyright li{font-size:12px;
+            color:#fdfffc;
+			float:left;
+			list-style:none;
+			height:48px;
+			line-height:48px;
+			padding-left:9px;
+			padding-right:9px;
+			background:url(img/%E7%AB%96%E6%9D%A1.png) no-repeat right center;
+	}
+#copyright ul{width:1002px;
+              margin-left:164px;
+			  border-bottom:1px solid #3b3233;
+			  
+	}
+#copyright p{font-size:12px;
+             color:#979296;
+			 height:22px;
+			 line-height:22px;
+			 text-align:center;
+	}
+#copyright .p1{margin-top:18px;}
+#end{position:absolute;
+     right:150px;
+	 top:484px;
+	}
+</style>
+</head>
+
+<body>
+<div id="header">
+    <ul class="a1" style="overflow:hidden;">
+        <li>在校学生</li>
+        <li>教职员工</li>
+        <li>校友</li>
+        <li>未来学生</li>
+        <li style="border-right:none;">未来教职工</li>
+    </ul>
+    <ul class="a2">
+        <li>繁体中文</li>
+        <li>怀念旧版</li>
+        <li>English</li>
+    </ul>
+    <input class="a3" type="text" value="请输入关键字">
+    <img class="a4" src="img/放大镜.png">
+</div>
+<img src="img/未标题-1.png">
+<div id="nav">
+    <ul class="a1">
+        <li style="padding-left:28px;">剑桥概览</li>
+        <li>机构设置</li>
+        <li>人才培养</li>
+        <li>学术科研</li>
+        <li>校园文化</li>
+        <li>合作交流</li>
+        <li>招生就业</li>
+        <li>校友会</li>
+        <li>荣誉榜</li>
+        <li>信息公开</li>
+    </ul>
+</div>
+<div id="total">
+<img src="img/未标题-2.png">
+<img src="img/日期表.png">
+    <div class="main">
+    <ul>
+    <li><div style="font-weight:bold;">上海建桥学院关于办学地址变更的公告</div>（08-04）</li>
+    <li>校学生会当选全国学联第26届委员会|团体委员房依萌同学参加大会（07-29）</li>
+    <li>学生整体搬迁新校区工作顺利完成（07-08）</li>
+    <li>学生行李发车仪式正式拉开搬迁临港大幕|周星曾董事长开锣（07-04）</li>
+    <li><div style="font-weight:bold;">关于做好搬迁工作及及2015年暑假安排的通知</div>（06-29）</li>
+    </ul>
+    </div>
+</div>
+<div id="content">
+<div class="wrap">
+    <div class="a1">
+    <h1 style="width:270px;">图片</h1>
+    <img src="img/mode.png" style="padding-top:19px;border-top:1px solid #ececec;">
+    <p>商学院第三届建筑模型制作大赛决...</p>
+    </div>
+    <div class="a2">
+    <h1 style="width:423px;">院部动态</h1>
+    <p class="p1"><b>我校举行开学典礼暨临港校新校区落成启用仪...</b><br/>9月18日下午，我校举行2015秋季开学典礼暨临港新校区落成启用仪式。中共上海市教育卫生工作委员会巡视员李...</p>
+    <p class="p2"><b>潘迎捷校长为全体2015级新生上第一节课</b><br/>9月18日下午，校长潘迎捷在校体育馆以“点燃青春激情，成就人生梦想”为主题，为全体2015级新生上开学第一...</p>
+    </div>
+    <div class="a3">
+    <h1 style="width:272px;">讲座报告</h1>
+        <ul>
+            <li style="padding-top:19px;">
+                <div>本科生毕业典礼暨学位授予仪式（6月2...</div>
+                <span>04-15</span>
+            </li>
+            <li>
+                <div>专科生毕业典礼（6月18日，体育馆）</div>
+                <span>04-15</span>
+            </li>
+            <li>
+                <div>“记忆留夏，定格康桥”摄影大赛</div>
+                <span>04-13</span>
+            </li>
+            <li>
+                <div>[高雅艺术]“相约经典”大学生公益票...</div>
+                <span>12-22</span>
+            </li>
+            <li>
+                <div>关于开展“我心中的好老师”系列活动...</div>
+                <span>06-09</span>
+            </li>
+            <li>
+                <div>艺术设计学院展厅开放告示</div>
+                <span>05-20</span>
+            </li>
+        </ul>
+    </div>
+    <div class="a4">
+    <h1 style=" width:423px;">通知公告</h1>
+        <ul>
+            <li style="padding-top:19px;">
+            <div>关于印发2015年新设班级名称的通知</div>
+            <span>09-18</span>
+            </li>
+            <li>
+            <div>关于印发《上海建桥学院2015年度秋季学期工作要点》的通知</div>
+            <span>09-18</span>
+            </li>
+            <li>
+            <div>关于印发校领导班子成员工作分工的通知</div>
+             <span>19-17</span>
+            </li>
+            <li>
+            <div>关于查晓敏等同志职务任免的通知</div>
+             <span>09-17</span>
+            </li>
+            <li>
+            <div>关于谭湘蓉等同志职务任免的通知</div>
+             <span>09-17</span>
+            </li>
+        </ul>
+    </div>
+</div>
+<img class="mark" src="img/标签.png">
+<div class="dengru">
+    <ul>
+    <li>信息门户</li>
+    <li>建桥邮箱</li>
+    </ul>
+    <input class="username" type="text" value="用户名">
+    <input class="psw" type="password" value="•••••">
+    <a class="submit" href="#">登入</a>
+    <a class="forget" href="#">忘记密码？</a>
+</div>
+</div>
+<div id="arrow"></div>
+<div id="out">
+    <ul>
+        <li style="width:209px;margin-left:230px;">友情链接</li>
+        <li style="width:179px;">合作院校</li>
+        <li style="width:199px;">产学合作单位</li>
+        <li style="width:209px;">相关链接</li>
+        <li style="width:209px;">实用连接</li>
+    </ul>
+</div>
+<div id="copyright">
+    <ul style="overflow:hidden;">
+        <li style="margin-left:63px;">教育部</li>
+        <li>上海市教育委员会</li>
+        <li>上海建桥（集团）有限公司</li>
+        <li>西南片高效联合办学</li>
+        <li>应用技术大学（学院）联盟</li>
+        <li style="background:none;">非营利性民办高校联盟</li>
+    </ul>
+    <p class="p1">学校地址：上海市浦东新区沪城环路1111号 邮编：201606</p>
+    <p class="p2">电话：021-5812778890 （总机）：58137880 （招生办公室） 沪ICP备05052066号</p>
+</div>
+<img id="end" src="img/双箭头.png">
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*
+表单元素行高不一致(IE,MOZ,C,O,S)
+描述：表单元素行高对齐方式不一致
+hack:给表单元素添加声明：float:left;
+*/
+div {
+	border: 1px solid #000;	
+	height: 31px;
+}
+#chk, #ipt {
+	float: left; /*使用这个属性来解决*/
+	height: 26px;
+}
+</style>
+</head>
+
+<body>
+<div>
+    <input id="chk" type="checkbox" />
+    <input id="ipt" type="text" value="" />
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+扩展知识：
+一般语言里面的随机数都是伪随机数。 review
+
+大气噪音随机数
+
+1. 绝对定位的元素，横向居中对齐的方法
+例如：width: 100px
+left: 50%
+margin-left: -50px(宽度的一半)
+
+纵向居中对齐
+例如：height: 100px
+top: 50%
+margin-top: -50px(高度的一半)
+
+2. 扩展，有趣的css3属性。
+transform: scale(1.4);
+transform: rotate(360deg);
+
+animation(关键帧动画)
+
+3. (扩展)后代选择器 选择器1 > 选择器2
+选择器1里面的第一层并且满足选择器2

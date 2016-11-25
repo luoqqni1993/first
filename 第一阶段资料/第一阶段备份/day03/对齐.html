@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+div {
+	width: 300px;
+	height: 200px;
+	border: 2px solid #000;
+}
+#d1 {
+	text-align: right;
+}
+/*
+行高=上空白+文字高度+下空白
+文字高度+上空白=200px
+line-height= 184+16+184
+*/
+#d2 {
+	line-height: 384px; /*可以通过计算让文字显示在容器的底边。*/
+	text-align: center;
+}
+#d3 {
+	line-height: 200px;/*当和容器高度一致的时候，可以使一行文字居中。*/
+	text-align: justify;/*justify（在高级浏览器中失效了。chrome, safari, firefox，欧朋opera, IE(9以后才开始现代化)）*/
+}
+td {
+	border: 2px solid red;
+	width: 300px;
+	height: 200px;
+	vertical-align: bottom;/* vertical-align只在td标签中生效。 */
+}
+</style>
+</head>
+
+<body>
+<div id="d1">hello world</div>
+<div id="d2">hello world</div>
+<div id="d3">hello world</div>
+<table>
+	<tr>
+    	<td>
+        	说好的雷阵雨呢？
+        </td>
+    </tr>
+</table>
+</body>
+</html>

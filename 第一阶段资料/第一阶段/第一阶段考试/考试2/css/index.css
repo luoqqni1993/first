@@ -1,0 +1,14 @@
+#wrap_top{height:30px;background:red ;}
+#top{width: 1024px;height:30px ;background:blue ;}
+
+#wrap_nav{height: 20px;background:blue ;}
+#nav{width: 1024px;height:20px ;background:green ;}
+
+#wrap_banner{height:80px ;background:gray ;}
+#banner{width: 1024px;height:80px ;background:red ;}
+
+#wrap_content{height:800px ;background:#ccc ;}
+#content{width: 1024px;height:800px ;background:blue ;}
+
+#wrap_footer{height:50px ;background:red ;}
+#footer{width: 1024px;height:50px ;background:#ccc ;}

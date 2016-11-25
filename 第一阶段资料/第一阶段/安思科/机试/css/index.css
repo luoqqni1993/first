@@ -1,0 +1,54 @@
+
+
+#wrap_banner{height:450px ;background:url(../images/bao_10.jpg) no-repeat;background-size: 100% 100%}
+
+#wrap_con1{background:#CB0B0D url(../images/bao_13.jpg) right 57px  no-repeat;overflow:hidden;}
+#con1{width: 962px;margin: auto ;overflow:hidden;background:#CB0B0D ;text-align: center;overflow: hidden;}
+#con1 h1{font-size: 27px;color: white;font-weight: 600;margin: 40px 0 20px 0}
+#con1 p{color: white;font-family: "微软雅黑"}
+#con1 .bot{margin-bottom: 50px}
+.title{height: 45px;background: #262726;text-align: center;padding-top: 15px}
+.title a{color: #FCFCFB;font-size: 14px;border:solid 1px #FCFCFB;padding: 6px;margin:15px 25px;border-radius: 8px}
+#wrap_con2{ overflow:hidden;}
+#con2{width:962px ; overflow:hidden;text-align: center;margin: auto}
+#con2 h2{width:962px ; overflow:hidden;font-size: 29px;line-height: 32px;
+			margin-top: 45px;color: #3B3A3A;font-weight: 600}
+#con2 dl{width: 234px;height: 330px;float: left;text-align: center;margin: 30px 6px 60px 0}
+#con2 dl img{width: 234px;height: 206px;}
+#con2 dl .title{width: 234px;font-size: 18px;line-height: 28px;background: none;color: #349933;font-weight: 600}
+#con2 dl .text{width: 234px;line-height: 24px;font-size: 11px;color: #545450}
+#wrap_con3{background:#262726;}
+#con3{width:842px;margin: auto;padding-left: 120px;overflow: hidden;background:url(../images/bao_21.jpg) 30px 30px no-repeat;}
+#con3 h1{font-size: 28px;font-weight: 900;color: white;margin: 28px 0 17px 0}
+#con3 p{font-size: 13px;color: white;margin-bottom: 36px}
+#wrap_con4{background: #F1F0EE}
+#con4{width: 962px;overflow: hidden;text-align: center;padding-bottom: 20px}
+#con4 h1{font-size: 27px;color: #444443;font-weight: 600;margin: 60px 0 0 0}
+#con4 p{font-size: 16px;color: #444443;line-height: 20px;margin-bottom: 100px}
+#con4 dl{width: 218px;height: 262px;float: left;margin:0 18px 40px 0}
+#con4 dl dt{width: 218px;height: 168px;}
+#con4 dl .price{text-align: left;color: red;margin-top: 27px;font-size: 12px}
+#con4 dl .text{line-height: 26px;color: #3C3A3A;font-size: 11px}
+#wrap_banner2{height: 311px;background:url(../images/ban2.jpg) no-repeat;background-size: 100% 100%}
+#wrap_con5{background: #262726}
+#con5{width: 962px;margin: auto;text-align: center;overflow: hidden;position: relative;}
+#con5 h1{font-size: 27px;color: #3C912B;font-weight: 600;margin: 40px 0 20px 0}
+#con5 p{color: #3C912B;font-family: "微软雅黑";margin-bottom:100px}
+#con5 dl{width: 450px;height: 90px;float: left;text-align: left;margin:10px 25px 0 0}
+#con5 .bot{margin-bottom: 480px}
+#con5 dl dt{margin-right: 10px}
+#con5 dl dt img{width: 88px;height: 90px;float: left;}
+#con5 dl dd{float: left;margin-left: 10px}
+#con5 dl .title{width: 350px;height: 13px;color: #3C912B;margin-bottom: 16px;text-align: left;background: none;margin-top: 0;padding-top: 0}
+#con5 dl .text{width: 350px;color: #3C912B;line-height: 20px;color: #818586}
+#con5 .pic{width:285px ;height: 285px; position: absolute;bottom: 10px;left: 50%;margin-left: -140px}
+#wrap_con6{background: #F3F2F0}
+#con6{width: 962px;margin: auto;overflow: hidden;}
+#con6 dl{width: 148px;height: 140px;text-align: center;float: left;margin: 58px 40px 54px 0}
+#con6 dl dt{width: 48px;height: 64px;padding: 0 50px}
+#con6 dl dd{color: #545450}
+#con6 dl .ti{line-height: 24px;font-size: 12px}
+#con6 dl .te{line-height: 20px;font-size: 11px}
+
+
+

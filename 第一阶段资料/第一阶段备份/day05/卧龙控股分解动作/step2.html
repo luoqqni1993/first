@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*去掉元素自带的属性，就叫做css reset*/
+body, h2, ul, li {
+	margin: 0px;
+	padding: 0px;
+}
+.header {
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+	background: skyblue;
+	background-image: url(img/logo.png);
+	background-position: 18px 34px;
+	background-repeat: no-repeat;
+}
+.header input {
+	width: 210px;
+	height: 28px;
+	background-color: #f1f1f1;
+	margin-top: 39px;
+	margin-left: 752px;
+	border: 1px solid #e5e5e5;
+	background-image: url(img/fangdajing.png);
+	background-position: 202px center;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+}
+.footer {
+	overflow: hidden;
+	width: 1000px;
+	margin: 0 auto;
+}
+.d1, .d2, .d3{
+	background-color: #e5e5e5;
+	float: left;
+}
+
+.d1{
+	width: 454px;
+	height: 233px;
+	padding-top: 19px;
+	padding-left: 20px;
+}
+.d1 h2 {
+	height: 38px;
+	font-size: 16px;
+	padding-left: 11px;
+	border-bottom: 1px solid #c2c2c2;
+	color: #646464;
+	line-height: 38px;
+}
+.d1 ul {
+	margin-top: 14px;	
+}
+.d1 li {
+	line-height: 25px;
+	font-size: 11px;
+	list-style: none;
+	padding-left: 14px;
+	background: url(img/subicon.png) no-repeat left center;
+	/*
+	background-image: url(img/subicon.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	*/
+}
+</style>
+</head>
+
+<body>
+<!-- 头部 -->
+<div class="header">
+	<input type="text" value="SEARCH...">
+</div>
+
+<div class="footer">
+	<div class="d1">
+    	<h2>产品中心</h2>
+        <ul>
+        	<li>汽车电机</li>
+            <li>日用电机</li>
+            <li>特种电机</li>
+            <li>大功率电机</li>
+            <li>电工设备</li>
+        </ul>
+    </div>
+    <div class="d2"></div>
+    <div class="d3"></div>
+</div>
+</body>
+</html>

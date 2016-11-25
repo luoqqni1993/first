@@ -1,0 +1,79 @@
+1. 滚动条
+overflow内容溢出时的设置 visible(默认), scroll, auto, inherit
+属性：
+overflow 水平及垂直方向内容溢出时的设置 
+overflow-x 水平方向内容溢出时的设置 
+overflow-y 垂直方向内容溢出时的设置
+
+2.主流浏览器内核
+*Trident:IE、Maxthon(遨游)、腾讯 、Theworld世界之窗、360浏览器
+代表作品IE,因为IE捆绑在Windows中，所以占有极高的市场份额，又称IE内核或是MSHTML，此内核只能应用于windows平台，且是不开源的。
+*Gecko：代表作品Mozilla Firefox 是开源的,它的最大优势是跨平台，能在Microsoft Windows、Linux和MacOS X等主要操作系统上运行。
+*Webkit :代表作品Safari、Chrome ， 是一个开源项目。
+*Presto :代表作品Opera ，Presto是由Opera Software开发的浏览器排版引擎。它也是世界上公认的渲染速度最快的引擎。
+*Blink ：由Google和Opera Software开发的浏览器排版引擎，2013年4月发布。
+
+扩展知识：
+非开源项目：windows操作系统
+
+开源项目(open source), 代码公开，可以修改。是否可以商用由开源协议来决定
+apache JAVA(SUN-->Oracle甲骨文) bigdata
+linux开源
+android JAVA-->C#
+
+3. 图片三像素bug
+1) 将</div>与<img>写在一行上
+2) display: block;
+3) vertical-align: top;
+4) margin-bottom: -3px;
+
+4. 双倍浮向（双倍边距）
+_display: inline;
+
+5.默认高度问题
+_overflow: hidden;
+_font-size: 0;
+
+6.表单元素行高不一致(IE,MOZ,C,O,S)
+描述：表单元素行高对齐方式不一致
+hack:给表单元素添加声明：float:left;
+
+7.按钮元素默认大小不一致
+描述：各浏览器中按钮元素大小不一致
+hack1:统一大小（用a标记模拟）
+hack2:input外边套一个标签，在这个标签里写按钮的样式，把input的边框去掉。
+hack3:如果这个按钮是一个图片，直接把图片作为按钮的背景图即可。
+
+8.百分比bug
+描述：在IE6及以下版本中在解析百分比时，会按四舍五入方式计算从而导致50%加50%大于100%的情况。
+hack:给右面的浮动元素添加声明：clear:right;     意思：清除右浮动。     
+clear:left:清除左浮动
+clear:both:清除两边的浮动
+
+9.当有用户报告有兼容性bug的时候，需要让用户提供的信息
+各种版本IE的虚拟机下载，微软官方。百度关键字：IE测试虚拟机 下载
+系统版本 win7
+系统的语言
+系统是32位 or 64位
+浏览器的具体版本
+
+10. 透明属性
+IE8以下浏览器写法：filter:alpha(opacity=value);取值范围 1-100
+兼容其他浏览器写法：opacity:value;(value的取值范围0-1,0.1,0.2,0.3-----0.9)
+会使元素自身以及所包含的子元素都跟着透明
+如果子元素不希望透明的时候，只能使用rgba
+
+11. 过滤器
+_属性	IE6使用的属性
+*属性	IE7使用的属性
+属性值!important	IE以外，且会使权重提升到最高。（慎用）
+团队合作时，尽量避免使用!important。
+
+12. fieldset用来做表单分组。通常和legend标签配合使用。(块元素)
+legend的位置，不能定制和修改。
+
+13.尽量避免img直接文字放在一起显示。
+文字要用内联元素包裹起来，并且一起float;
+
+推荐使用background，可以精确地控制图片的位置，并且不占空间。
+同时，把a标签转成内联块(inline-block)元素。

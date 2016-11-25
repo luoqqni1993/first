@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*
+normal：默认值，空白会被浏览器忽略，
+pre：空白会被浏览器保留，其行为方式类似HTML中的pre标签；
+nowrap:文本不会换行，文本会在同一行上继续，直到遇到<br/>标签为止；
+pre-wrap：保留空白符序列，但是正常的进行换行；
+pre-line:合并空白符序列，但是保留换行符；
+inherit：规定应该从父元素继承White-space属性的值；(ie浏览器不支持此属性值)
+*/
+div {
+	height: 100px;
+	width: 200px;
+	border: 2px solid red;
+}
+#d1 {
+
+}
+#d2 {
+	word-break: break-all;
+}
+</style>
+</head>
+
+<body>
+<div id="d0">
+45555555555555555555555555555555555555555555555555555555555
+</div>
+<div id="d1">
+汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字
+</div>
+<div id="d2">
+45555555555555555555555555555555555555555555555555555555555
+</div>
+</body>
+</html>

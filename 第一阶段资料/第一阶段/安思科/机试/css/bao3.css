@@ -1,0 +1,20 @@
+#wrap_banner{height: 450px;background: url(../images/ba03_02.jpg) no-repeat;background-size: 100% 100%}
+#wrap_con1{background: #262726;position: relative;}
+#wrap_con1 #con1{width: 962px;background: #262726;margin: auto;overflow: hidden;overflow: hidden;}
+#con1 .left{width: 184px;height: 700px;float: left;overflow: hidden;margin-top: 8px}
+#con1 .left ul{margin-top: 13px;background: #FFFFFF}
+#con1 .left h2{color: #CA0000;line-height: 39px;margin-left: 16px;padding-left: 3;}
+#con1 .left ul li{padding:0 10px 0 15px;width: 170px;overflow: hidden;white-space: nowrap;text-overflow:ellipsis;
+					line-height: 32px;font-size: 11px;color: #3C3A3A;background: url(../images/ba03_09.jpg) 5px center no-repeat;}
+#con1 .left .ul1 li{margin-top: 13px;border-bottom: dashed 1px #ccc; }
+#con1 .left ul{margin-top: 13px}
+
+
+
+#con1 .right{width: 710px;background: #FFFFFF;float: right;overflow: hidden;margin-bottom: 12px}
+#con1 .right h1{width: 710px;height: 78px;background: #FFFFFF;float: right;line-height: 78px;color: #C00000;font-weight: 900;
+			border-bottom: solid 3px #161716;font-size: 27px;text-align: center;margin-bottom: 10px}
+#con1 .right p{margin: 20px 30px 0 30px;width: 640px;text-indent: 2em;font-weight: 550;font-size: 15px;color: #360000}
+#con1 .right .bottom{margin-bottom: 20px}
+
+#wrap_con1 .posi{position: absolute;width: 60px;height: 60px;background: url(../images/bao_13.jpg) no-repeat;right: 5px;top: 30px }

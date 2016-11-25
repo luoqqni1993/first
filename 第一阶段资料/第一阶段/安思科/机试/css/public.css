@@ -1,0 +1,40 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:12px; line-height: 23px}
+input,a{outline:none;}
+body,html{width: 100%;height: 100%}
+#top,#nav,#head,#banner,#con1,#footer,#con2,#con3,#con4{margin: auto}
+
+#wrap_top{height:30px;background:#262726 ;}
+#top{width: 962px;height:30px ;}
+#top p{float: left;height: 30px;line-height: 30px;font-size: 11px;}
+#top .login{float: left;}
+#top .login a{padding: 0 6px;border-right:solid 1px #9A9690;color: #9A9690}
+#top .login .bordernone{border-right:0}
+#top .mes{float: right;}
+#top .mes a{padding: 0 6px;border-right:solid 1px #9A9690;color: #9A9690}
+
+#wrap_head{height:100px;overflow: hidden;}
+#head{width: 962px;height:100px ;}
+#head .pic{width: 194px;height: 61px;float: left;background:url(../images/bao_06.jpg) no-repeat;margin: 27px 0 0 8px}
+#head .ri{width: 160px;height: 65px;float: right;background:#262726 url(../images/bao_03.jpg) no-repeat;padding-top:35px }
+#head .ri a{width: 160px;font-size: 16px ;color: white;float: left;text-align: center;margin-top: 9px;font-weight: 800}
+#head .fon{width: 312px;height: 20px;float: right;border-bottom: dashed 2px #D0CDC8; margin-top: 18px}
+#head .fon a{color: #D0CDC8;font-size: 15px;padding-right: 24px}
+#head .fon .none{padding-right: 0}
+#wrap_nav{height: 60px;background:#F3F2F0 ;}
+#nav{width: 962px;height:60px ;overflow: hidden;}
+#nav ul{width: 962px;height:60px ;}
+#nav ul li{line-height: 60px;float: left;}
+#nav ul li a{font-size: 15px;color: #504F4C;padding: 0 28px;font-weight: 800;font-family: "宋体"}
+
+#wrap_footer{height:110px ;background:#2A2B2B;border-top: solid 5px #59A72D;}
+#footer{width: 962px;height:110px ;overflow: hidden;text-align: center;}
+#footer .p1{margin: 18px 0 32px 0}
+#footer .p1 .none{border:0;}
+#footer .p1 a{padding: 0 8px;border-right: solid 1px white;color: white}
+#footer .p2{color: white;}

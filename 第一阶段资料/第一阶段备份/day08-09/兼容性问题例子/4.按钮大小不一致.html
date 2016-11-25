@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+#btn {
+	width: 120px;
+	height:50px;
+}
+a {
+	display: inline-block;
+	height: 40px;
+	width: 150px;
+	background: lightblue;
+	border: 1px solid lightblue;
+	border-radius: 5px;	
+	color: white;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	box-shadow: 2px 2px 8px lightgrey;
+}
+
+a:active {
+	background: lightblue;
+	box-shadow: 2px 2px 8px lightgrey, inset 3px 3px 8px #666, inset -3px 3px 8px #666, inset 3px -3px 8px #666;
+}
+</style>
+</head>
+
+<body>
+<input id="btn" type="button" value="这是一个按钮">
+
+<a>这也是一个按钮</a>
+</body>
+</html>

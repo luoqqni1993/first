@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*
+作用：阴影滤镜就是给对象添加阴影效果，其工作原理是建立一个偏移量，加上色彩。 
+语法：{filter:dropshadow(color=color,offx=offx,offy=offy,positive=positive)} 
+参数：该滤镜中的Color参数表示投射阴影的颜色，offx 表示水平方向阴影的偏移量，offy 表示竖直方向阴影的偏移量，Positive参数是一个布尔值，其数值如果为TRUE，就为任何的非透明像素建立可见的投影，如果为FASLE，就为透明的像素部分建立透明效果。
+*/
+div {
+	color: blue;
+	font-size: 30px;
+	font-weight: bold;
+}
+#ft {
+	filter:dropshadow(color=red,offx=8,offy=8,positive=true);
+}
+</style>
+</head>
+
+<body>
+<div>Everyday is a gift</div>
+<div id="ft">Everyday is a gift</div>
+</body>
+</html>

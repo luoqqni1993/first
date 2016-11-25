@@ -1,0 +1,13 @@
+1.块状元素（block element） 
+
+2.内联元素（inline element）（或是行内元素）
+
+3.display的属性值
+
+4.解决inline-block没有对齐的方法。
+
+5.使块元素在一行内显示的方法：
+
+6.浮动(float)会使元素变成什么类型的元素。
+
+7.display: none;和visibility: hidden的区别

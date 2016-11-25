@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+/*content这个属性必须要有。
+1）、:after:与content属性一起使用，定义在对象后的内容。
+如：div:after{content:url(logo.jpg);}
+      div:after{content:"文本内容";}
+2）、:before:与content属性一起使用，定义在对象前的内容。
+如：div:before{content:"在其前放内容";}
+*/
+div:before {
+	content: "这是前任";
+	color: red;
+}
+div:after {
+	content: "这是下一任";
+	display: block;
+	height: 40px;
+	background: red;
+}
+</style>
+</head>
+
+<body>
+<div>节日快乐。</div>
+</body>
+</html>
